@@ -1,0 +1,3 @@
+This error typically occurs when there's a mismatch between the Expo CLI version and the dependencies specified in your project's `package.json` file.  Specifically, it often arises when you've upgraded Expo CLI but haven't updated the versions of packages like `expo`, `react-native`, `react-native-web`, etc., to be compatible with the newer CLI.  The error might manifest in different ways, such as build failures or unexpected runtime behavior.  It might also relate to the use of EAS Build with incompatible versions of dependencies.
+
+Example scenario: You upgrade Expo CLI to a version that requires React Native 0.70, but your `package.json` still lists React Native 0.68. This inconsistency causes errors during build or development.
